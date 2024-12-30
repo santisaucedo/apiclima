@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>API CLIMA</title>
+</head>
+
+<body>
+
+
+    <div class="image-slider">
+        <div class="image image1"></div>
+        <div class="image image2"></div>
+        <div class="image image3"></div>
+    </div>
+
+    <!-- Formulario -->
+
+    <form>
+        <div class="containter-all">
+            <h1>Ingrese direccion o coordenadas</h1>
+            <!-- Ciudad -->
+            <div class="container mb-4">
+                <label for="ciudad" class="block text-sm font-medium text-gray-700">Ciudad</label>
+                <input type="text" id="ciudad"
+                    class="direccion mt-1 p-2 w-full border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+            </div>
+            <!-- Coordenadas -->
+            <div class="container mb-4">
+                <div class="flex gap-2 mt-1">
+                    <div class="w-1/2">
+                        <label for="lat" class="text-sm font-medium text-gray-700">Latitud</label>
+                        <input type="text" id="lat"
+                            class="mt-1 p-2 w-full border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+                    <div class="w-1/2">
+                        <label for="lon" class="text-sm font-medium text-gray-700">Longitud</label>
+                        <input type="text" id="lon"
+                            class="mt-1 p-2 w-full border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                
+
+                <button type="button" id="btn" class="btn p-2 bg-blue-500 text-white rounded-md w-full sm:w-auto">
+                    Buscar
+                </button>
+                <button type="button" id="btn-borrar" class="btn p-2 bg-red-500 text-white rounded-md w-full sm:w-auto">
+                    Borrar
+                </button>
+                <button type="button" id="btn-volumen">
+                    <img src="icons/sonido.gif" id="btn-sonido" >
+                </button>
+            </div>
+        </div>
+    </form>
+
+
+    <!-- Tarjeta de Clima -->
+    <div class="card">
+
+        <div class="container contenedor-tarjeta">
+            <div class="cloud front">
+                <span class="left-front"></span>
+                <span class="right-front"></span>
+            </div>
+            <span class="sun sunshine"></span>
+            <span class="sun"></span>
+            <div class="cloud back">
+                <span class="left-back"></span>
+                <span class="right-back"></span>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="codigo.js"></script>
+
+
+</body>
+
+</html>
