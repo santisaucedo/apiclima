@@ -15,10 +15,15 @@ Este proyecto es una aplicación web que permite consultar el clima ingresando u
 📌 Características
 
 ✅ Búsqueda de clima por nombre de ciudad.
+
 ✅ Consulta de clima por coordenadas geográficas (latitud y longitud).
+
 ✅ Visualización de temperatura, humedad y estado climático en tiempo real.
+
 ✅ Interfaz responsiva desarrollada con Bootstrap.
+
 ✅ Consumo de API de clima utilizando JavaScript (Fetch API).
+
 ✅ Voz Generada con IA
 
 📦 Instalación y Uso
