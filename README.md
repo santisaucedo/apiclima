@@ -3,6 +3,7 @@
 Este proyecto es una aplicación web que permite consultar el clima ingresando una ciudad o coordenadas geográficas. La aplicación consume datos de una API externa y muestra información en tiempo real sobre la temperatura, humedad y condiciones climáticas.
 
 🚀 Tecnologías Utilizadas
+
 🔹Java 
 
 🔹Java Script
