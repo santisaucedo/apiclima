@@ -4,8 +4,6 @@ Este proyecto es una aplicación web que permite consultar el clima ingresando u
 
 🚀 Tecnologías Utilizadas
 
-🔹Java 
-
 🔹Java Script
 
 🔹HTML
